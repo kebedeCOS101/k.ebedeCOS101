@@ -1,12 +1,6 @@
 use std::io;
 fn main () {
-    let p = "poundo yam/Edinkaiko soup".to_string() ;
-    let f  = " fried rice and chicken".to_string() ;
-    let a = " amala and Ewedu soup".to_string();
-    let w = " White rice and stew".to_string();
-    let e = " Eba and egusi soup".to_string();
-    let menu = p + &f + &a + &w + &e; //for the menu
-    println!("Todays menu consists of {}",menu );
+   
     let p:i32 = 3200;
     let f:i32 = 3000;
     let a:i32 = 2500;
@@ -39,7 +33,7 @@ fn main () {
     else if choice == "w"{
         amount = w;
     } else {
-    println!("invalid choose a");
+    println!("invalid choose a suggested words");
     return;}
  println!("\n input your desired quantity");
  let mut quantity= String::new();
@@ -52,6 +46,6 @@ fn main () {
  if cost > 10000{
  let discount = cost * 10/100;
  let finalcost = cost - discount;
- println!("since your purchase was above 10000 you recieved a 10% discount which brought your cost to {} ", finalcost);
+ println!("since your purchase was above 10000 you recieved a 10% discount which brought your cost to {} ",finalcost);
 }
 }
