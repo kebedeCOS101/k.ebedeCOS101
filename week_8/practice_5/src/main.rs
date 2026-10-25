@@ -14,7 +14,7 @@ fn main() {
     std::io::stdin().read_line(&mut input2).expect("failed to read input");
   let new_city:String = input2.trim().parse().expect("Invalid input");
   city.push(new_city);
-     }
+  }
 print!("Your preferred cities are:\n");
 let mut count=1;
 //loop to iterate elements in vector

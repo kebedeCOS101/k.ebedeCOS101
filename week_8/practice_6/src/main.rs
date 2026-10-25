@@ -4,7 +4,7 @@ fn main() {
     let x = vec![5,6,7,8,9,10,11,];
 
     // use a for loop to add elements of the vector
-    for index in 0..6{
+    for icndex in 0..6{
         let sum = v[index] + x[index];
         println!("{}",sum);
     }
